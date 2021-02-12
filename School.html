@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/School.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/School.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="details">
+            <input id="fullname" type="text" placeholder="Student Name">
+            <select id="courses">
+                <option>Subject</option>
+                <option>Mathematics</option>
+                <option>English</option>
+                <option>Science</option>
+                <option>Ghanaian Language</option>
+                <option>Creative Arts</option>
+                <option>Social Studies</option>
+            </select>
+            <input id="IA" type="number" placeholder="Internal Assessment">
+            <input id="EA" type="number" placeholder="End of Semester">
+            <button id="savebtn" onclick="addNewInfo()">SAVE</button>
+        </div>
+
+        <table id="studentsheet">
+            <tr>
+                <th>STUDENT NAME</th>
+                <th>COURSE</th>
+                <th>INTERNAL ASSESSMENT</th>
+                <th>END OF SEMESTER</th>
+                <th>TOTAL SCORE</th>
+                <th>GRADE</th>
+            </tr>
+            </tr>
+        </table>
+        <a href=""><button>RESET</button></a>
+    </div>
+</body>
+
+</html>
